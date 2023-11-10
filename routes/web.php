@@ -18,5 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
+/* Route with UserController and function  */
 Route::get('/users', [UserController::class, 'showGreetMessage']);
